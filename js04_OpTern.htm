@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js04_OpTern.htm - if</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8"/>
+</head>
+<body>
+<script language="Javascript">
+<!--
+/* Objetivo:
+exemplos práticos de aplicações com Operador Ternário?:, Operadores relacionais e Expressão Aritimética.
+utilização de sintaxe: (<condição>) ? <expressão para resultado verdadeiro> : <expressão para resultado falso>
+*/
+
+/* Definição de variáveis */
+document.write('<p>-----------------------------------------------...');
+document.write('<p>DEFINIÇÃO E ATRIBUIÇÃO DE VARIÁVEIS:');
+document.write('<p>var js_num = <b>30</b>; (js_num recebe valor 30)');
+var ja_num = 30;
+
+/* Aplicações de operador Ternário utilizando Operadores Relacionais */
+document.write('<p>------------------------------------------------...');
+document.write('<p>OPERADOR TERNÁRIO <b>(? :)</b> com ORERADORES RELACIONAIS (==, !=, <):');
+
+document.write('<p>js_num <b>==<b> 20 <b>?</b> "SIM" <b>:</b> "NÃO" - Resposta => ');
+	((js_num == 20) ? document.write('<b>SIM</b>') : document.write('<b>NÃO</b>'));
+
+document.write('<p>js_num <b>!=</b> 20 <b>?</b> "SIM" <b>:</b> "NÃO" - Resposta => ');
+	((js_num != 20) ? document.write('<b>SIM</b>') : document.write('<b>NÃO</b>'));
+
+document.write('<p>js_num <b><</b> 50 <b>?</b> "SIM" <b>:</b> "NÃO" - Resposta =>');
+	((js_num < 50) ? document.write('<b>SIM</b>') : document.write('<b>NÃO</b>'));
+
+/* Aplicações de Operador utilizando Expressão Aritimética e Operador Relacional */
+document.write('<p>-----------------------------------------------...');
+document.write('<p>OPERADOR TERNÁRIO com EXPRESSÃO ARITMÉTICA:');
+
+document.write('<p>(js_num <b>-<b/> 20) <b>==</b> 0 <b>?</b> "SIM" <b>:</b> "NÃO" - Resposta => ');
+	((js_num - 20) == 0) ? document.write('<b>SIM</b> + js_num') : document.write('<b>NÃO</b>');
+//-->
+</script>
+</body>
+</html>
